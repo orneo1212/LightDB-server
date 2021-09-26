@@ -1,0 +1,40 @@
+{
+  "name": "lightdb-server",
+  "version": "1.0.0",
+  "description": "LightDB server using fastify.js",
+  "main": "index.js",
+  "scripts": {
+    "build": "pkg --debug -c package.json -o dist/lightdb-server server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/orneo1212/LightDB-server.git"
+  },
+  "keywords": [
+    "db",
+    "server",
+    "json",
+    "sync",
+    "database"
+  ],
+  "dependencies": {
+    "fastify": "^3.21.0",
+    "fastify-basic-auth": "^2.1.0",
+    "fastify-etag": "^2.1.0",
+    "fastify-multipart": "^5.0.0",
+    "fastify-plugin": "^3.0.0",
+    "fastify-static": "^4.2.3"
+  },
+  "devDependencies": {
+    "browserify": "^17.0.0",
+    "faucet": "^0.0.1",
+    "pkg": "^5.3.2",
+    "tape": "^5.3.1"
+  },
+  "author": "Marcin Świerczyński <orneo1212@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/orneo1212/LightDB-server/issues"
+  },
+  "homepage": "https://github.com/orneo1212/LightDB-server#readme"
+}
